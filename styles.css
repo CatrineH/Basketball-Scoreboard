@@ -1,0 +1,64 @@
+
+body {
+   margin: 0;
+   text-align: center;
+   margin-bottom: 20px;
+   background-color: #1B244A;
+   
+}
+
+.container {
+   display: flex;
+   justify-content: space-around;
+   position: relative;
+   padding: 20px;
+   
+}
+
+
+h3 {
+   font-size: 35px;
+   color: white;
+}
+
+#counter1, #counter2 {
+   font-size: 65px;
+   color: crimson;
+   background-color: black;
+   width: 100px;
+   height: 100px;
+   padding-top: 30px;
+   margin-left: 30px;
+   
+   
+   
+}
+
+
+button {
+ float: left;
+ border: 1px solid green;
+   
+}
+
+.AddBtn, .resetBtn {
+   font-size: 18px;
+   margin: 4px;
+   padding: 10px;
+   background-color: transparent;
+   color: #9AABD8;
+   border-color: #9AABD8;
+   border-radius: 3px;   
+}
+
+.resetBtn {
+   margin-left: 30%;
+   color: orange;
+   padding: 10px 30px 10px 30px;
+   letter-spacing: 1.5px;
+   font-size: 18px;
+   
+}
+
+
+
