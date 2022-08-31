@@ -11,29 +11,34 @@ body {
    display: flex;
    justify-content: space-around;
    position: relative;
-   padding: 20px;
+   padding: 1px;
    
 }
 
 
 h3 {
+   font: 18px Consolas, monospace;
    font-size: 35px;
    color: white;
+   width: 80px;
+   
+   padding: 0px 55px 0px 40px;
+   margin-left: 30px; 
+   
 }
 
 #counter1, #counter2 {
-   font-size: 65px;
+   font-family: Roboto; 
+   font-size: 95px;
    color: crimson;
    background-color: black;
-   width: 100px;
-   height: 100px;
-   padding-top: 30px;
-   margin-left: 30px;
-   
-   
-   
+   background-blend-mode: color-burn;
+   border-radius: 50px;
+   width: 80px;
+   height: 90px;
+   padding: 50px 50px 50px 50px;
+   margin-left: 30px;  
 }
-
 
 button {
  float: left;
@@ -43,8 +48,10 @@ button {
 
 .AddBtn, .resetBtn {
    font-size: 18px;
-   margin: 4px;
-   padding: 10px;
+   margin: 11px;
+   padding: 15px;
+   top: 70%;
+   position: relative;
    background-color: transparent;
    color: #9AABD8;
    border-color: #9AABD8;
@@ -52,13 +59,31 @@ button {
 }
 
 .resetBtn {
-   float: left;
+   width: 20%;
+   position: absolute;
+   top: 73%;
+   left: 39%;
+   right: 57%;
+   align-items: center;
+
    color: orange;
-   padding: 10px 30px 10px 30px;
+   padding: 10px 10px 10px 10px;
    letter-spacing: 1.5px;
    font-size: 18px;
+   border-radius: 5px;
    
 }
+
+.SlideText {
+font-family: Consolas, monospace;
+font-size: 50px;
+line-height: 1.3em;
+color: crimson;
+background-color:#1B244A;
+padding: 30px;
+
+}
+
 
 
 
